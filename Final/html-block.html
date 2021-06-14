@@ -1,0 +1,42 @@
+<!-- IMAGE FILE INPUT HANDLER -->
+<input onChange="fileSelectHandler(event)" id="imgInput" type="file" accept="image/*"/>
+
+<br/><br/>
+
+<!-- POINTILLISM/IMPRESSIONISM -->
+<div>
+  <b>Art movement:</b>
+  <input onChange="artMovementHandler(this.value == 1)" type="radio" name="artMovement" value=0 />
+  <label>Pointillism</label>
+  <input onChange="artMovementHandler(this.value == 1)" checked type="radio" name="artMovement" value=1 />
+  <label>Impressionism</label>
+</div>
+
+<br/>
+
+<!-- COLOR TYPE HANDLER -->
+<div>
+  <b>Color:</b>
+  <input onChange="colorTypeHandler(this.value == 1)" checked type="radio" name="typeColor" value=0 />
+  <label>Normal colors</label>
+  <input onChange="colorTypeHandler(this.value == 1)" type="radio" name="typeColor" value=1 />
+  <label>Complementary colors</label>
+</div>
+
+<br/>
+
+<!-- STROKE SCALER HANDLER -->
+<div>
+  <label>Stroke scaler</label>
+  <input onInput="strokeSizeSliderHandler(this.value)" type="range" value=1.00 step=0.01 min=1.00 max=2.00 />
+  <label id="strokeSizeValue">1</label>
+</div>
+
+<br/>
+
+<!-- BRUSH STROKE DENSITY -->
+<div>
+  <label>Brushstroke density</label>
+  <input onInput="brushStrokesDensitySliderHandler(this.value)" type="range" name="Stroke size" value="0.50" step=0.01 min=0.01 max=1.0 />
+  <label id="strokeDensityValue">0.50</label>
+</div>
