@@ -6,3 +6,11 @@ Live version + code hosted [here](https://edurinaldi.pencilcode.net/edit/Impress
 
 ## "Template" folder
 This program is designed as second learning unit for "Methods in Computer Science Education" course @ Sapienza, so this folder contains a template that "imaginary students" could use to start with the unit.
+
+## Examples
+
+* Source:
+    ![](Original.jpg)
+
+* Final:
+    ![](Render.png)
