@@ -13,4 +13,4 @@ This program is designed as second learning unit for "Methods in Computer Scienc
     ![](Original.jpg)
 
 * Final:
-    ![](Render.png)
+    ![](Render.PNG)
